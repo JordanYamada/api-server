@@ -2,7 +2,7 @@
 
 ## Live Deploy
 
-[Heroku](https://yamada-basic-api-server.herokuapp.com/)
+[Heroku](https://yamada-api-server.herokuapp.com/)
 
 ## Deployment
 
@@ -14,6 +14,7 @@ Run "NPM test" in the terminal once all dependencies are installed.
 
 For Applications:
 How do I run the app?
+You can run the app on your local terminal. You can also dest routes on thunder client.
 How do I set up the app?
 
 ## Testing
