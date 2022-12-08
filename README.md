@@ -19,9 +19,13 @@ How do I set up the app?
 
 ## Testing
 
-Write a complete set of tests for all functional units and modules
-Your tests must be running green on Github Actions
+Input [npm test] in the terminal to run the test
 [TESTS](./__tests__)
+
+You can test routes through thunder client:
+
+- /cat
+- /coffee
 
 ## Documentation
 
