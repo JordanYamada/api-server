@@ -3,6 +3,7 @@
 const express = require('express');
 const app = express();
 const coffeeRouter = require('./routes/coffee.js');
+const catRouter = require('./routes/cat.js');
 const logger = require('./middleware/logger.js');
 // const validator = require('./middleware/validator.js');
 
@@ -11,6 +12,7 @@ const notFound = require('./error-handlers/404.js');
 app.use(logger);
 app.use(express.json());
 app.use(coffeeRouter);
+app.use(catRouter);
 
 app.get('/', (request, response) => {
   try {

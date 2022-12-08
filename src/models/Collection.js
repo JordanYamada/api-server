@@ -1,5 +1,6 @@
 'use strict';
 
+
 class Collection {
   constructor(model) {
     this.model = model;
